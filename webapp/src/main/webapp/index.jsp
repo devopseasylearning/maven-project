@@ -43,7 +43,7 @@
             <div class="modal-body">
               <form id="saveMemberInfo">
                 <div class="form-group">
-                  <label for="reg_no">Registration no
+                  <label for="reg_no">Registration number
                     <span class="required-field">*</span>
                   </label>
                   <input type="text" class="form-control" placeholder="Enter registration no:" id="reg_no" required />
@@ -55,7 +55,7 @@
                   <input type="text" class="form-control" placeholder="Enter owner name:" id="owner_name" required />
                 </div>
                 <div class="form-group">
-                  <label for="email">Email
+                  <label for="email">Email addres
                     <span class="required-field">*</span>
                   </label>
                   <input type="email" class="form-control" placeholder="Enter email" id="email" required />
