@@ -125,7 +125,7 @@
           </div>
           <div class="modal-body">
             <div class="form-group">
-              <label for="show_reg_no">Registration no</label>
+              <label for="show_reg_no">Registration number</label>
               <input type="text" class="form-control" id="show_reg_no" value="" disabled>
             </div>
             <div class="form-group">
@@ -148,90 +148,4 @@
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- User Information Modal End -->
-  <!-- User Edit Modal Start -->
-  <div id="show_user_info">
-    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="editModal">Edit Vehicle Information</h4>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="edit_reg_no">Registration no
-                  <span class="required-field">*</span>
-                </label>
-                <input type="text" class="form-control" id="edit_reg_no" value="" required />
-              </div>
-              <div class="form-group">
-                <label for="edit_owner_name">Owner name
-                  <span class="required-field">*</span>
-                </label>
-                <input type="text" class="form-control" id="edit_owner_name" value="" required />
-              </div>
-              <div class="form-group">
-                <label for="edit_email">Email
-                  <span class="required-field">*</span>
-                </label>
-                <input type="email" class="form-control" id="edit_email" value="" required />
-              </div>
-              <div class="form-group">
-                <label for="edit_d_o_a">Date of allocation
-                  <span class="required-field">*</span>
-                </label>
-                <input type="text" class="form-control" id="edit_d_o_a" value="" required onkeypress="return false;" />
-              </div>
-              <div class="form-group">
-                <label for="edit_slot">Slot number
-                  <span class="required-field">*</span>
-                </label>
-                <input type="number" class="form-control" id="edit_slot" value="" required />
-              </div>
-              <div class="form-group">
-                <input type="hidden" class="form-control" id="member_id">
-              </div>
-              <div class="modal-footer-extended">
-                <button type="button" class="btn btn-success" onclick="updateMemberData();">Update</button>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- User Edit Modal End -->
-  <!-- Delete Confirmation Dialog Start -->
-  <div id="show_user_info">
-    <div class="modal fade" id="deleteDialog" tabindex="-1" role="dialog" aria-labelledby="deleteDialogTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="deleteDialog">Warning!</h4>
-          </div>
-          <div class="modal-body">
-            <h4>Are you sure, want to delete this vehicle? </h4>
-            <input type="hidden" id="deleted-member-id" value="">
-            <div class="modal-footer-extended">
-              <button class="btn btn-danger" onclick="deleteMemberData()">Delete</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Delete Confirmation Dialog End -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
 
-</body>
-</html>
